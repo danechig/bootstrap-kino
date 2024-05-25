@@ -1,0 +1,1103 @@
+@import url(./fonts.css);
+*{
+    font-family: "Golos-Text";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a{
+    font-weight: 600;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden !important;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+section.myzhchina{
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    height: 700px;
+    border-radius: 8px
+}
+
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+p{
+    font-family: "Golos-TExt1";
+    font-size: 14px;
+    color: #c4c1c1;
+}
+h5{
+    font-family: "Golos-Text2";
+    font-size: 16px;
+    color: #fff;
+}
+h3{
+    font-size: 30px;
+    color: #fff;
+    font-family: "Golos-TExt1";
+}
+h2{
+    font-family: "Golos-Text2";
+    font-size: 40px; 
+    color: #ffffff;
+}
+h1{
+    font-family: "Golos-TExt1";
+    font-size: 50px;
+    color: #ffffff;
+}
+.stranger{
+    height: 600px;
+    background: url(./img/1.jpg);
+    background-size: cover;
+}
+.stranger-text{
+    width: 463px;
+}
+.btn-1{
+    background: linear-gradient(to right, #0953d9 50%, #6eaffc 90%);
+}
+.btn-2{
+    width: 119px;
+    background: linear-gradient(to right, #030d20 40%, #111a26 60%);
+}
+.btn-3{
+    width: 50px;
+    background: linear-gradient(to right, #030d20 40%, #111a26 60%);
+}
+.bookmark{
+    width: 12px;
+    height: 12px;
+}
+.card{
+    background-color: #141414;
+}
+.space{
+    background: url(/img/6.jpg);
+    height: 500px;
+    background-size: cover;
+    margin-top: 300px;
+}
+.space h5{
+    font-family: "Golos-Text3";
+    font-size: 16px;
+    color: #c4c1c1;
+}
+.btn{
+    font-size: 14px;
+    font-family: "Golos-Text2";
+}
+.btn-4{
+    background: linear-gradient(to right, #fe542e 50%, #f09819 90%);
+    font-size: 12px;
+    font-family: "Golos-TExt1";
+    height: 40px;
+    width: 180px;
+}
+.insomnia h5{
+    font-family: "Golos-Text3";
+    font-size: 16px;
+    color: #c4c1c1; 
+}
+.proekt{
+    background-color: #1f1f1f;
+    padding: 100px 0;
+}
+.proekt h5{
+    font-family: "GGolos-Text3";
+    font-size: 16px;
+    color: #c4c1c1;
+}
+.col h4{
+    color: #0953d9;
+    font-size: 40px;
+    font-family: "Golos-TExt1";
+}
+.person1{
+    border-radius: 100%;
+}
+.sub-text h5{
+    width: 555px;
+}
+.inp{
+    background-color: #141414;
+    height: 52px;
+    width: 467px;
+}
+.check{
+    padding-left: 35px;
+}
+.subscription .card h3{
+    color: #6cacf6;
+}
+.subscription .card{
+    background: linear-gradient(to right, #030d20 40%, #111a26 60%);
+    width: 270px;
+    height: 160px;
+}
+.subscription .column2{
+    margin-top: 290px;
+}
+footer p{
+    font-size: 12px;
+}
+footer{
+    background-color: #1f1f1f;
+}
+.btn-1{
+    height: 52px;
+    width: 230px;
+}
+.btn-2{
+    height: 52px;
+    width: 119px;
+}
+.btn-1 img{
+    width: 15px;
+    height: 15px;
+}
+.btn-2 img{
+    width: 15px;
+    height: 15px;
+}
+.btn-4{
+    width: 179px;
+    height: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .container{
+        width: 950px !important;
+    }
+    .navbar{
+       width: 1024px !important;
+    }
+    .stranger {
+        margin-top: 0px !important;
+        height: 1200px;
+        background-repeat: no-repeat;
+        background-position: center 750px;
+        background-size: cover;
+        background-size: 800px 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 300px !important;
+        border-radius: 10px !important;
+    }
+    .stranger-text {
+        width: 800px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .buttons{
+        margin-top: -300px;
+    }
+    .recommendations{
+        margin-top: 500px;
+    }
+    .recommendations .rec{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .recommendations .rec{
+        display: flex !important;
+        align-items: center !important;
+    }
+    .container-rec{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .space{
+        margin-top: 300px;
+        background-color: #fe542e;
+    }
+    .container-rec{
+        display: flex;
+        flex-direction: column;
+    }
+    .space{
+        margin-bottom: 500px;
+        margin-top: 550px;
+    }
+    .insomnia .list-group a{
+        margin-bottom: 40px;
+    }
+    .insomnia .list-group h5{
+        margin: 40px 0 40px 0;
+    }
+    .insomnia .list-group h2{
+        margin-bottom: 40px;
+    }
+    .insomnia .list-group h1{
+        margin-bottom: 40px;
+    }
+    .insomnia .list-group .carousel h5{
+        font-size: 18px;
+    }
+    .insomnia h5 {
+        font-size: 21px;
+    }
+    .insomnia .list-group .carousel{
+        margin-bottom: 120px;
+    }
+    .insomnia  .img-8-9{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px !important;
+    }
+    .insomnia .img-10-11{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px !important;
+        margin-bottom: 65px;
+    }
+    .insomnia .flex-row .col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .insomnia .flex-row .col img{
+       width: 400px;
+       height: 220px;
+       margin-bottom: 40px;
+    }
+    .proekt .row{
+        display: flex;
+        flex-direction:column-reverse ;
+    }
+    .proekt .row .col2 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .proekt .row .col2 h3{
+        margin-bottom: 40px;
+    }
+    .proekt .row .col2 .mt-3{
+        margin-bottom: 50px  !important;
+    }
+    .proekt .row .col2 h5{
+        margin: 20px 0 20px 0;
+    }
+    .proekt  .row .col1{
+        display: flex;
+       justify-content: center;
+       margin: 120px 0 120px 0 ;
+    }
+    .subscription .sub-text{
+        margin: 60px 0;
+    }
+    .subscription .sub-text h1{
+        margin-bottom: 40px !important;
+    }
+    .subscription form .mb-3{
+        margin-bottom: 60px !important;
+    }
+    .subscription .tarif h5{
+        margin-bottom: 20px;
+    }
+    .subscription .column2 .flex-row{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .subscription .column2 .flex-row .card{
+        margin: 0px !important;
+        margin-bottom: 40px !important;
+    }
+    .subscription .column2 .flex-row .card-4{
+        margin-bottom: 180px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 840px) {
+    .container{
+        width: 810px !important;
+    }
+    .navbar {
+        width: 810px !important;
+    }
+    .navbar-expand .navbar-nav .nav-item .icon {
+        flex-direction: row;
+    }
+    .navber .nav-item .icon{
+        width: 15px;
+        height: 15px;
+    }
+    .navbar>.containerr{
+        margin: 0px;
+    }
+    .stranger {
+        height: 1100px !important;
+        background-position: center 469px !important;
+        background-size: 800px 500px !important;
+        margin-bottom: 100px !important;
+    }
+    .recommendations .card img{
+        height: 190px;
+        width:230px ;
+    }
+    .space {
+        margin-bottom: 500px;
+        margin-top: 400px;
+    }
+    .stranger-text {
+        padding-left: 0px !important;
+        width: 700px;
+    }
+    .space .ms-5{
+        margin-left: 230px !important;
+    }
+    .insomnia h5 {
+        font-size: 16px;
+    }
+    .insomnia .flex-row .col img {
+        width: 330px;
+        height: 180px;
+    }
+    .proekt .row .col1 {
+        margin: 20px 0 00px 0;
+    }
+    .subscription .column1{
+        width: 480px;
+    }
+    .sub-text h5 {
+        width: 440px;
+    }
+    .subscription .card {
+        width: 250px;
+        height: 140px;
+    }
+    .navbar-expand .navbar-nav .nav-item .icon {
+        width: 15px;
+        height: 15px;
+    }
+    .navbar-expand .navbar-nav .nav-item .icon {
+        width: 25px;
+        height: 25px;
+    }
+    .navbar-expand .navbar-nav .nav-item {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 830px) {
+    .container{
+        width: 810px !important;
+    }
+    .navbar{
+       width: 810px !important;
+    }
+    .stranger {
+        height: 880px !important;
+        background-size: 600px 400px !important;
+    }
+    .recommendations .card img {
+        height: 150px;
+        width: 200px;
+    }
+    .space {
+        margin-bottom: 300px;
+        margin-top: 300px;
+    }
+    .insomnia .flex-row .col img {
+        width: 300px;
+        height: 150px;
+    }
+    .proekt .row .col2 .mt-3 {
+        margin-bottom: 10px !important;
+    }
+    .proekt .row .col2 h3 {
+        margin-bottom: 10px;
+    }
+    .proekt .row .col1 img{
+        width: 480px;
+        height: 350px;
+    }
+    .subscription .sub-text {
+        margin: 0px 0;
+    }
+    .subscription .column2 {
+        margin-top: 210px;
+    }
+    .subscription .column2 .flex-row .card-4 {
+        margin-bottom: 120px !important;
+    }
+    .film-stranger{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container{
+        width: 760px !important;
+    }
+    .navbar{
+        width: 760px !important;
+     }
+     .recommendations .card h5{
+        margin-top: 5px !important;
+     }
+     .space {
+        margin-bottom: 260px;
+        margin-top: 260px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 420px) {
+    .container{
+        width: 390px !important;
+    }
+    .navbar{
+       width: 390px !important;
+    }
+    p{
+        font-size: 10px !important;
+    }
+    h5{
+        font-size: 14px !important;
+    }
+    h3{
+        font-size: 24px !important;
+    }
+    h2{
+        font-size: 34px !important; 
+    }
+    h1{
+        font-size: 45px !important;
+    }
+    nav a{
+        font-size: 9px !important;
+    }
+    .navbar-expand .navbar-nav .nav-item .icon {
+        width: 10px;
+        height: 10px;
+    }
+    .film-stranger {
+        height: 730px !important;
+        background-size: 380px 340px !important;
+        padding: 0px !important;
+    }
+    .stranger-text {
+        padding-left: 0px !important;
+        width: 400px;
+        margin-top: 300px !important;
+    }
+    .buttons {
+        margin-left: 0px !important;
+        margin-top: 60px;
+    }
+    .btn-1 {
+        height: 40px;
+        width: 200px;
+    }
+    .btn-2 {
+        height: 40px;
+        width: 80px;
+    }
+    .btn-3 {
+        height: 40px;
+        width: 30px;
+    }
+    .stranger-text {
+        padding: 0px !important;
+    }
+    .recommendations {
+        margin-top: 500px !important;
+    }
+    .stranger {
+        background-position: center center !important;
+        height: 460px !important;
+        background-size: 600px 300px !important;
+    }
+    .container-rec{
+        display: flex !important;
+        align-items: center;
+        text-align: center;
+    }
+    .recommendations {
+        margin-top: 77px !important;
+    }
+    .recommendations .card img {
+        height: 90px;
+        width: 150px;
+    }
+    .space {
+        margin-bottom: 170px;
+        margin-top: 170px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .space-text{
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .space h5 {
+        width: 300px;
+    }
+    .space .ms-5 {
+        margin-left: 75px !important;
+    }
+    .insomnia .flex-insomnia{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .insomnia .text{
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+    }
+    .insomnia .list-group a {
+        margin-bottom: 0px;
+    }
+    .insomnia .list-group h1 {
+        margin-bottom: 5px;
+    }
+    .insomnia .list-group h5 {
+        margin: 10px 0 10px 0;
+    }
+    .insomnia .list-group h2 {
+        margin-bottom: 10px;
+    }
+    .insomnia h5 {
+        font-size: 12px !important;
+    }
+    .insomnia .carousel-item img{
+        width: 40px;
+        height: 45px;
+    }
+    .insomnia .flex-row .col img {
+        width: 230px;
+        height: 120px;
+    }
+    .insomnia .flex-row .col .img-10-11 {
+        display: none;
+    }
+    .insomnia .flex-row .col .img-9 {
+        display: none;
+    }
+    .proekt .row .col2 h5 {
+        margin: 0px 0 10px 0;
+    }
+    .col h4 {
+        font-size: 25px;
+    }
+    .proekt .row .col1 img {
+        width: 300px;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+    .subscription{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .subscription .sub-text h1 {
+        margin-bottom: 10px !important;
+    }
+    .sub-text h5 {
+        width: 400px;
+        padding-left: 0px;
+    }
+    .inp {
+        background-color: #141414;
+        height: 35px;
+        width: 300px;
+        margin-left: 55px;
+    }
+    .subscription form .mb-3 {
+        margin-bottom: 5px !important;
+    }
+    .subscription h1{
+        font-size: 30px !important;
+    }
+    .subscription .tarif{
+        display: flex;
+        flex-direction: row;
+        width: 414px !important;
+    }
+    .subscription .tarif label{
+        font-size: 12px ;
+    }
+    .subscription .form-check input {
+        width: 10px;
+        height: 10px;
+        margin-left: 0px !important;
+    }
+    .subscription .form-check label{
+        font-size: 12px ;
+    }
+    .subscription .btn-1 {
+        margin: 10px 0 0 100px !important;
+    }
+    .subscription .column2{
+        margin: 0px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        margin-top: 20px !important;
+    }
+    .subscription .card {
+        width: 150px;
+        height: 40px;
+    }
+    .subscription .mt-4{
+        margin-top: 0px !important;
+    }
+    .sot-seti img{
+        width: 10px !important;
+        height: 10px !important;
+        margin-left: 5px !important;
+    }
+    footer .text-decoration-underline{
+        margin-left: 5px !important;
+    }
+    footer p{
+        font-size: 9px !important;
+    }
+    .subscription .form-check label {
+        margin-right: 20px;
+    }
+    .subscription .column1 {
+        width: 414px;
+    }
+    .nav-item a{
+        padding: 0px !important;
+        padding-right: 12px !important;
+    }
+    .nav-item img{
+        padding-right: 5px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 395px) {
+    .container{
+        width: 390px !important;
+    }
+    .navbar{
+       width: 390px;
+    } .nav-item a{
+        padding: 0px !important;
+        padding-right: 5px !important;
+    }
+    .nav-item img{
+        padding-right: 2px !important;
+    }
+    .stranger {
+        margin-top: 100px !important;
+    }
+    .recommendations .card img {
+        height: 115px;
+        width: 160px;
+    }
+    .space-text {
+        padding-top: 110px !important;
+    }
+    .proekt .row .col1 img {
+        width: 350px;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+    .subscription .column1 {
+        width: 390px;
+    }
+    .sub-text h5 {
+        width: 380px;
+        padding-left: 0px;
+    }
+    .subscription .form-check label {
+        margin-right: 80px;
+    }
+    .form-check {
+        padding-left: 50px;
+    }
+    .subscription .btn-1 {
+        margin: 10px 0 0 90px !important;
+    }
+    .stranger-text {
+        width: 350px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 376px) {
+    .container{
+        width: 360px !important;
+    }
+    .navbar{
+       width: 360px !important;
+    }
+    .stranger-text h5{
+        width: 350px !important;
+    }
+    .recommendations .card img {
+        height: 100px;
+        width: 150px;
+    }
+    .space{
+        margin-top: 160px;
+    }
+    h1 {
+        font-size: 40px !important;
+    }
+    .proekt .row .col1 img {
+        width: 300px;
+        height: 220px;
+        margin-bottom: 20px;
+    }
+    footer p {
+        font-size: 8px !important;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .stranger-text {
+        width: 360px;
+    }
+    .buttons {
+        margin: 0px 0 70px 0;
+    }
+    .recommendations {
+        margin-top: 111px !important;
+    }
+    .subscription .column1 {
+        width: 360px;
+    }
+    .sub-text h5 {
+        width: 360px;
+        padding-left: 0px;
+    }
+    .inp {
+        margin-left: 30px;
+    }
+    .subscription .tarif {
+        width: 360px !important;
+    }
+    .subscription .form-check label {
+        margin-right: 40px;
+    }
+    .subscription .btn-1 {
+        margin: 10px 0 0 70px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 330px) {
+    .container{
+        width: 310px !important;
+    }
+    .navbar{
+       width: 310px !important;
+    }  
+    body{
+        overflow-x: hidden;
+    } 
+    p{
+        font-size: 8px !important;
+    }
+    h5{
+        font-size: 12px !important;
+    }
+    h3{
+        font-size: 18px !important;
+    }
+    h2{
+        font-size: 28px !important; 
+    }
+    h1{
+        font-size: 34px !important;
+    }
+    .me-3 {
+        margin-right: 0px !important;
+    }
+    nav a {
+        font-size: 8.5px !important;
+    }
+    .stranger {
+        background-position: center center !important;
+        height: 360px !important;
+        background-size: 400px 200px !important;
+        margin-top: 30px !important;
+    }
+    .stranger-text {
+        width: 310px !important;
+        margin-top: 220px !important;
+    }
+    .stranger-text img{
+        width: 18px !important;
+        height: 18px !important;
+    }
+    .stranger-text p{
+        margin-right: 5px !important;
+    }
+    .stranger-text h5 {
+        width: 300px !important;
+    }
+    .btn-1 {
+        height: 30px;
+        width: 160px;
+        font-size: 10px !important;
+    }
+    .btn-1 img {
+        width: 12px;
+        height: 12px;
+    }
+    .btn-2 {
+        height: 30px;
+        width: 90px;
+        font-size: 10px !important;
+    }
+    .btn-3 {
+        height: 30px;
+        width: 30px;
+    }
+    .btn-2 img {
+        width: 12px;
+        height: 12px;
+    }
+    .buttons {
+        margin: 0px 0 20px 0;
+    }
+    .film{
+        margin-top: 10px !important;
+    }
+    .film-stranger {
+        height: 530px !important;
+    }
+    h2 {
+        font-size: 22px !important;
+    }
+    .recommendations .card img {
+        height: 80px;
+        width: 120px;
+    }
+    .space {
+        margin: 70px 0;
+    }
+    .space h5 {
+        width: 280px;
+    }
+    .space .ms-5 {
+        margin-left: 65px !important;
+    }
+    .space-text {
+        padding-top: 140px !important;
+    }
+    .btn-4 {
+        width: 149px;
+        height: 30px;
+    }
+    .list-group img{
+        width: 12px;
+        height: 12px;
+    }
+    .insomnia .list-group h5 {
+        margin: 0px 0 0px 0;
+    }
+    .list-group p{
+        margin-bottom: 0px !important;
+    }
+    .insomnia .list-group h2 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .carousel{
+        padding-top: 20px !important;
+    }
+    .insomnia h5 {
+        font-size: 10px !important;
+    }
+    .insomnia .img-8-9 {
+        display: none;
+    }
+    .insomnia .flex-row .col img {
+        width: 190px;
+        height: 100px;
+    }
+    .insomnia .carousel-item img {
+        width: 25px;
+        height: 25px;
+    }
+    .col h4 {
+        font-size: 18px;
+    }
+    .proekt .row .col1 img {
+        width: 150px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+    .subscription .column1 {
+        width: 310px !important;
+    }
+    .sub-text h5 {
+        width: 300px;
+        padding-left: 0px;
+    }
+    .inp {
+        height: 25px;
+        width: 250px;
+    }
+    .subscription .btn-1 {
+        margin: 10px 0 0 80px !important;
+    }
+    .subscription h1 {
+        font-size: 25px !important;
+    }
+    .form-check{
+        margin-top: 0px !important;
+    }
+    .subscription .column2 .flex-row .card {
+        width: 100px;
+        height: 50px;
+        margin: 0px !important;
+        margin-bottom: 10px !important;
+    }
+    .subscription .card h5 {
+        font-size: 9px !important;
+        margin: 0px !important;
+    }
+    .subscription .card h3{
+        font-size: 12px !important;
+        margin: 0px !important;
+    }
+    footer p {
+        font-size: 6px !important;
+    }
+    .nav-item a {
+        padding: 0px !important;
+        padding-right: 2px !important;
+    }
+    .subscription .tarif {
+        width: 300px !important;
+    }
+    .subscription .form-check label {
+        margin-right: 10px;
+    }
+    .form-check{
+        text-align: start;
+    }
+    .subscription .form-check input {
+        margin-left: -15px !important;
+    }
+}
